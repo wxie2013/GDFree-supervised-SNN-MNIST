@@ -14,6 +14,9 @@ def logging_setup_func():
 
 def init_ray(args):
     tmp_dir = '/tmp/ray'
+    if not os.path.exists(tmp_dir):
+        os.mkdir(tmp_dir)
+
     port = os.getenv("port")
     head_node = os.getenv("head_node")
     if head_node != None:
