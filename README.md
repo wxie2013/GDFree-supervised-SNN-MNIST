@@ -25,3 +25,8 @@ Install all the ROOT dependencies, see https://root.cern/install/dependencies/
 
 # execute the following command where 'Brian2' is the head of the import command: 
 ln -s GDFree-supervised-SNN-MNIST Brian2
+
+# the paper: Gradient-Free Supervised Learning using Spike-Timing-Dependent Plasticity for Image Recognition
+
+https://doi.org/10.48550/arXiv.2410.16524
+
